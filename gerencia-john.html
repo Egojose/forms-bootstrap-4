@@ -14,27 +14,33 @@
         <div class="row">
             <div class="col-4">
                 <h4>Empresas</h4>
-                <select class="custom-select" id="basic" multiple="multiple">
-                    <option value="cheese">Canacol</option>
-                    <option value="tomatoes">CNE</option>
-                    <option value="mozarella">Mozzarella</option>
-                    <option value="mushrooms">Mushrooms</option>
-                </select>
+                <select name="states" id="example" class="form-control" multiple="multiple" style="display: none;">
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option selected value="CA">California</option>
+                </select>        
             </div>
         </div>
     </div>
 
-    <script>$('#basic').multiselect({
-            templates: {
-                li: '<li><a href="javascript:void(0);"><label class="pl-2"></label></a></li>'
-            }
-        });</script>
+
+   <script>$(function(){
+
+        $("select").dashboardCodeBsMultiSelect();
+      
+      });</script> 
+        
+    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
+    <script src="distgerencias/js/BsMultiSelect.js"></script>
+
 </body>
 
 </html>
