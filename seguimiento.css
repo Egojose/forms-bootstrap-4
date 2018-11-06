@@ -2,6 +2,11 @@ body{
     margin-top: 80px;
 }
 
-.espacio{
+/*.espacio{
     margin-top: 15px;
+}*/
+
+label{
+    margin-top: 15px;
+    margin-bottom: 0px;
 }
