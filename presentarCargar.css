@@ -2,10 +2,19 @@
     margin-top: 100px;
 }
 
+
+label.uno{
+    color: white;
+    font-size: 18px;
+}
 .fas{
     color:#104068;
 }
 
 .presentaciones{
     margin-bottom: 20px;
+}
+
+.card-header{
+    background-color: #104068 !important;
 }
